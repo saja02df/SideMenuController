@@ -45,6 +45,9 @@ extension SideMenuController {
         centerPanel.addGestureRecognizer(panLeft)
         centerPanel.addGestureRecognizer(panRight)
         centerPanel.addGestureRecognizer(tapRecognizer)
+        
+        // SJ: Enable pan gesture
+        centerPanel.addGestureRecognizer(panGesture)
     }
     
     @objc @inline(__always) func handleCenterPanelPanLeft(_ gesture: UIScreenEdgePanGestureRecognizer) {
