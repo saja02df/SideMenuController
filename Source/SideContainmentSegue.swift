@@ -22,7 +22,7 @@
 //  SOFTWARE.
 
 open class SideContainmentSegue: UIStoryboardSegue{
-    //SJ:: v1.2.8
+    //SJ:: v1.2.9
     override open func perform() {
         if let sideController = self.source as? SideMenuController {
             sideController.embed(sideViewController: destination)
