@@ -424,7 +424,7 @@ open class SideMenuController: UIViewController, UIGestureRecognizerDelegate {
     }
     
     fileprivate var hidesStatusBar: Bool {
-        return [.slideAnimation, .fadeAnimation, .horizontalPan].contains(_preferences.animating.statusBarBehaviour)
+        return [.slideAnimation, .horizontalPan].contains(_preferences.animating.statusBarBehaviour)
     }
     
     fileprivate var centerPanelFrame: CGRect {
@@ -449,7 +449,7 @@ open class SideMenuController: UIViewController, UIGestureRecognizerDelegate {
         
         if sidePanelPosition.isPositionedUnder {
             sidePanelFrame = CGRect(x: sidePanelPosition.isPositionedLeft ? 0 :
-                screenSize.width - panelWidth, y: 0, width: panelWidth, height: screenSize.height + diff)
+                screenSize.width - panelWidth, y: 0, width: panelWidth, height: screenSize.height)
         } else {
             if sidePanelVisible {
                 sidePanelFrame = CGRect(x: sidePanelPosition.isPositionedLeft ? 0 : screenSize.width - panelWidth, y: 0, width: panelWidth, height: screenSize.height + diff)
