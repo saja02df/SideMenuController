@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.authors = { 'Teodor Patraș' => 'me@teodorpatras.com' }
   s.source = { :git => 'https://github.com/teodorpatras/SideMenuController.git', :tag => s.version }
 
-  s.ios.deployment_target = '8.0'
-
+  s.ios.deployment_target = '10.0'
+  s.swift_version = "4.0"
   s.source_files = 'Source/*.swift'
 
   s.requires_arc = true
