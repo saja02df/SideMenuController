@@ -202,6 +202,7 @@
 					};
 					13A757EF1D12A2A0004488DA = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NM7DXWBDYG;
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -424,6 +425,7 @@
 		13A757FE1D12A2A0004488DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = NM7DXWBDYG;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teodorpatras.SideMenuControllerTests;
@@ -435,6 +437,7 @@
 		13A757FF1D12A2A0004488DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = NM7DXWBDYG;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teodorpatras.SideMenuControllerTests;
